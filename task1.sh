@@ -4,7 +4,7 @@ EXEC=./exponentialIntegral.out
 TIMING="-t"
 CSV="gpu_only.csv"
 
-BLOCKS=(16 24 32 48 64 96 128 160 192 256 320 384 448 512 768 1024)
+BLOCKS=(16, 32, 64, 128, 256, 512, 1024)
 
 PROBLEMS=(
   "5000 5000"

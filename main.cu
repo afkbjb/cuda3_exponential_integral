@@ -17,7 +17,7 @@ void printUsage();
 
 int main(int argc, char** argv) {
     // parse args
-    unsigned n = 10, m = 10, blk = 256;     // <-- new blk var
+    unsigned n = 10, m = 10, blk = 256;     
     double a = 0.0, b = 10.0;
     bool timing = false, verbose = false;
     bool skipCPU = false, skipGPU = false;
