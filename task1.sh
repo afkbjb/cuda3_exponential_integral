@@ -2,9 +2,10 @@
 
 EXEC=./exponentialIntegral.out
 TIMING="-t"
-CSV="gpu_only.csv"
+CSV="gpu_streams.csv"
 
-BLOCKS=(16, 32, 64, 128, 256, 512, 1024)
+BLOCKS=(16 32 64 128 256 512 1024)
+
 
 PROBLEMS=(
   "5000 5000"
@@ -28,4 +29,4 @@ for size in "${PROBLEMS[@]}"; do
   done
 done
 
-echo "GPU-only done. Results saved in $CSV"
+echo "GPU-only-streams done. Results saved in $CSV"
